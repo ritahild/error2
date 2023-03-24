@@ -77,5 +77,22 @@
             android:textColor="@android:color/black"
     />
 
+    <Button
+            android:id="@+id/loginbutton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentStart="true"
+            android:layout_marginBottom="106dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:background="@drawable/button"
+            android:padding="20dp"
+            android:text="войди сюда"
+            android:textAllCaps="false"
+            android:textSize="22sp"
+            android:textColor="@android:color/black"
+            android:layout_marginStart="-2dp"/>
+
 
 </RelativeLayout>
