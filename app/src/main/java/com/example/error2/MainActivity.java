@@ -23,14 +23,15 @@ public class MainActivity extends AppCompatActivity {
 
 
         mainBtn.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                Intent HomeIntent = new Intent(MainActivity.this, HomeActivity.class);
-                startActivity(HomeIntent);
-            }
-        }
+                                       @Override
+                                       public void onClick(View v) {
+                                           Intent HomeIntent = new Intent(MainActivity.this, HomeActivity.class);
+                                           startActivity(HomeIntent);
+                                       }
+                                   }
         );
     }
+}
 
 
 
