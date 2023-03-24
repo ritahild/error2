@@ -28,6 +28,8 @@ public class HomeActivity extends AppCompatActivity {
 //            }
 //        });
 
+
+
         Button joinButton = (Button) findViewById(joinbutton);
 
 

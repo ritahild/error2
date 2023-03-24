@@ -24,6 +24,7 @@
             android:textSize="22sp"
             android:textColor="@android:color/black"
             android:layout_marginStart="1dp"/>
+
     <Button
             android:id="@+id/joinbutton"
             android:layout_width="match_parent"

@@ -75,6 +75,8 @@
             android:textAllCaps="false"
             android:textSize="22sp"
             android:textColor="@android:color/black"
+
+
     />
 
     <Button

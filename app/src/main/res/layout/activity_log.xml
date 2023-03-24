@@ -94,6 +94,8 @@
             android:textColor="@android:color/black"
     />
 
+
+
     <!--    <TextView-->
     <!--            android:id="@+id/admin_panel_link"-->
     <!--            android:layout_width="wrap_content"-->
