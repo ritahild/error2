@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout
+<android.support.constraint.ConstraintLayout
         xmlns:android="http://schemas.android.com/apk/res/android"
         xmlns:tools="http://schemas.android.com/tools"
         xmlns:app="http://schemas.android.com/apk/res-auto"
@@ -7,39 +7,4 @@
         android:layout_height="match_parent"
         tools:context=".HomeActivity">
 
-
-    <Button
-            android:id="@+id/loginbutton"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_alignParentBottom="true"
-            android:layout_alignParentStart="true"
-            android:layout_marginBottom="602dp"
-            android:layout_marginLeft="20dp"
-            android:layout_marginRight="20dp"
-            android:background="@drawable/button"
-            android:padding="20dp"
-            android:text="войди сюда"
-            android:textAllCaps="false"
-            android:textSize="22sp"
-            android:textColor="@android:color/black"
-            android:layout_marginStart="1dp"/>
-
-    <Button
-            android:id="@+id/joinbutton"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_alignParentBottom="true"
-            android:layout_alignParentStart="true"
-            android:layout_marginBottom="488dp"
-            android:layout_marginLeft="20dp"
-            android:layout_marginRight="20dp"
-            android:background="@drawable/button"
-            android:padding="20dp"
-            android:text="познай ужас"
-            android:textAllCaps="false"
-            android:textSize="22sp"
-            android:textColor="@android:color/black"
-            android:layout_marginStart="-4dp"/>
-
-</RelativeLayout>
+</android.support.constraint.ConstraintLayout>

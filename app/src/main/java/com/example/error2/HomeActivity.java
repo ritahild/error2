@@ -17,18 +17,16 @@ public class HomeActivity extends AppCompatActivity {
         setContentView(R.layout.activity_home);
 
 
-//        Button loginButton = (Button) findViewById(loginbutton);
-//
-//
-//        loginButton.setOnClickListener(new View.OnClickListener() {
-//            @Override
-//            public void onClick(View v) {
-//                Intent LoginIntent = new Intent(HomeActivity.this, LogActivity.class);
-//                startActivity(LoginIntent);
-//            }
-//        });
+        Button loginButton = (Button) findViewById(loginbutton);
 
 
+        loginButton.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent LoginIntent = new Intent(HomeActivity.this, LogActivity.class);
+                startActivity(LoginIntent);
+            }
+        });
 
         Button joinButton = (Button) findViewById(joinbutton);
 
