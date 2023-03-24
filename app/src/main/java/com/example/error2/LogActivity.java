@@ -29,7 +29,7 @@ public class LogActivity extends AppCompatActivity {
         log_Button.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent LoginIntent = new Intent(LogActivity.this, HomeActivity.class);
+                Intent LoginIntent = new Intent(LogActivity.this, DActivity.class);
                 startActivity(LoginIntent);
             }
         });

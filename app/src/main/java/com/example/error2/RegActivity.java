@@ -17,6 +17,7 @@
 
 package com.example.error2;
 
+import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
@@ -36,6 +37,10 @@ public class RegActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_reg);
+
+
+
+
 
         registerBtn = (Button) findViewById(R.id.register_btn);
         usernameInput = (EditText) findViewById(R.id.register_username_input);

@@ -14,7 +14,7 @@
             tools:targetApi="33">
 
 
-        <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" tools:ignore="WrongManifestParent"/>
+
 
 
         <activity
@@ -66,5 +66,6 @@
                     android:value=""/>
         </activity>
     </application>
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
 
 </manifest>

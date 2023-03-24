@@ -7,7 +7,6 @@ import android.view.View;
 import android.widget.Button;
 
 
-
 public class HomeActivity extends AppCompatActivity {
 
     @Override
@@ -26,6 +25,20 @@ public class HomeActivity extends AppCompatActivity {
                 startActivity(LoginIntent);
             }
         });
+
+        Button CoopButton = (Button) findViewById(R.id.coop);
+
+
+        CoopButton.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent LoginIntent = new Intent(HomeActivity.this, AlarmActivity.class);
+                startActivity(LoginIntent);
+            }
+        });
+
+
+
 
 
     }
