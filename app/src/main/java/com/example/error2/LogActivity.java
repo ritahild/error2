@@ -34,6 +34,18 @@ public class LogActivity extends AppCompatActivity {
             }
         });
 
+
+        Button regButton = (Button) findViewById(R.id.joinbutton);
+
+
+        regButton.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent LoginIntent = new Intent(LogActivity.this, RegActivity.class);
+                startActivity(LoginIntent);
+            }
+        });
+
     }
 
 

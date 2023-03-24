@@ -6,8 +6,7 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 
-import static com.example.error2.R.id.joinbutton;
-import static com.example.error2.R.id.loginbutton;
+
 
 public class HomeActivity extends AppCompatActivity {
 
@@ -17,7 +16,7 @@ public class HomeActivity extends AppCompatActivity {
         setContentView(R.layout.activity_home);
 
 
-        Button loginButton = (Button) findViewById(loginbutton);
+        Button loginButton = (Button) findViewById(R.id.loginbutton);
 
 
         loginButton.setOnClickListener(new View.OnClickListener() {
@@ -28,15 +27,6 @@ public class HomeActivity extends AppCompatActivity {
             }
         });
 
-        Button joinButton = (Button) findViewById(joinbutton);
 
-
-        joinButton.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                Intent registerIntent = new Intent(HomeActivity.this, RegActivity.class);
-                startActivity(registerIntent);
-            }
-        });
     }
 }
